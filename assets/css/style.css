@@ -19,6 +19,10 @@ p {
     font-size:14px;
 }
 
+.navbar-brand {
+  padding-left: 15px;
+}
+
 .navbar {
   padding: 0px;
   background-color: #fff;
