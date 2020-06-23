@@ -53,6 +53,10 @@ body {
 /*--------------------------------------------------------------
 # View on GitHub 
 ----------------------------------------------------------------*/
+.view-on-github-btn-li {
+  list-style: none;
+}
+
 .view-on-github-btn {
   background: #545454;
   color: #fff;
