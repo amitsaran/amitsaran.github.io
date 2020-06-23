@@ -53,7 +53,6 @@ body {
 /*--------------------------------------------------------------
 # View on GitHub 
 ----------------------------------------------------------------*/
-
 .view-on-github-btn {
   background: #545454;
   color: #fff;
@@ -64,6 +63,7 @@ body {
   font-size: 13px;
   display: inline-block;
   border: 2px solid #cdd1d9;
+  text-decoration: none;
 }
 
 .view-on-github-btn:hover {
