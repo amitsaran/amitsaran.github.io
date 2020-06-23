@@ -10,15 +10,17 @@ body {
     font-weight: 400;
   }
 
+/*--------------------------------------------------------------
+# Logo - Image
+--------------------------------------------------------------*/
 .logo{
 	width: 40px;
 	height: 40px;
 }
 
-p {
-    font-size:14px;
-}
-
+/*--------------------------------------------------------------
+# Navbar - 
+--------------------------------------------------------------*/
 .navbar-brand {
   padding-left: 15px;
 }
@@ -48,6 +50,64 @@ p {
   text-decoration: none;
 }
 
+/*--------------------------------------------------------------
+# View on GitHub 
+----------------------------------------------------------------*/
+
+.view-on-github-btn {
+  margin-left: 15px;
+  background: #545454;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 10px 4px 10px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 13px;
+  display: inline-block;
+  border: 2px solid #cdd1d9;
+}
+
+.view-on-github-btn:hover {
+  background: #e96b56;
+  color: #fff;
+  border-color: #545454;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Section
+--------------------------------------------------------------*/
+#home,
+#portfolio,
+#technology {
+	margin-top:20px;
+	padding:10px;
+	text-align:center;
+}
+
+#home .lead,
+#portfolio .lead,
+#technology .lead {
+	text-align:center;
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+#contact {
+	margin-top:20px;
+	padding:10px;
+	text-align:center;
+}
+
+#contact .lead {
+	text-align:center;
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 #footer {
   background:  #545454;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
