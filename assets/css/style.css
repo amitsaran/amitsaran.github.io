@@ -89,6 +89,13 @@ body {
 	text-align:center;
 }
 
+#home .quote {
+	text-align:center;
+  font-size:12px;
+  font-style: italic;
+	margin-bottom:0px;
+}
+
 #home .lead,
 #portfolio .lead,
 #technology .lead {
