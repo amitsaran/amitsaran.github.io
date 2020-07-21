@@ -79,10 +79,47 @@ body {
 }
 
 /*--------------------------------------------------------------
+# Carousel
+----------------------------------------------------------------*/
+.carousel-item img{
+  height:200px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-caption {
+  text-align: center;
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: #545454;
+}
+
+.carousel-indicators .active {
+  background-color: #e96b56;
+}
+
+/*--------------------------------------------------------------
 # Section
 --------------------------------------------------------------*/
 #home,
-#portfolio,
+#portolio,
 #technology {
 	margin-top:20px;
 	padding:10px;

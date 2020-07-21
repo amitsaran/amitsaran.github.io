@@ -1,0 +1,247 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    color: #666;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 400;
+  }
+  
+  p {
+      font-size:16px;
+  }
+  
+  .navbar-fixed-top ul.nav li a {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  }
+  
+  .callOuts{
+  border: 1px solid #d7d8da;
+  }
+  .callOuts img{
+  height: 150px;
+  width: 200px;
+  }
+  .logo{
+  width: auto;
+  height: 150px;
+  }
+  .carousel-item img{
+    height:200px;
+  }
+  
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #company {
+  margin-top:20px;
+  padding:10px;
+  text-align:center;
+  }
+  
+  #company .lead {
+  text-align:center;
+  font-size:18px;
+  margin-bottom:20px;
+  }
+  
+  #company img {
+  height: 150px;
+  width:  200px;
+  border-radius:15%;
+  margin-top:10px;
+  margin-bottom:10px;
+  }
+  
+  #services {
+  margin-top:20px;
+  padding:10px;
+  text-align:center;
+  }
+  
+  #services .lead {
+  text-align:center;
+  font-size:18px;
+  margin-bottom:20px;
+  }
+  
+  #support {
+  margin-top:20px;
+  padding:10px;
+  text-align:center;
+  }
+  
+  #support .lead {
+  text-align:center;
+  font-size:18px;
+  margin-bottom:20px;
+  }
+  
+  .support .support-social h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+  }
+  
+  .support .support-social p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #888;
+  }
+  
+  .support .social-links {
+    padding-bottom: 20px;
+  }
+  
+  .support .social-links a {
+    font-size: 14px;
+    display: inline-block;
+    background: #fff;
+    color: #3498db;
+    line-height: 1;
+    padding: 6px 0;
+    margin-right: 3px;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    border: 1px solid #3498db;
+  }
+  
+  .support .social-links a:hover {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .support .info {
+    color: #444444;
+  }
+  
+  .support .info i {
+    font-size: 32px;
+    color: #3498db;
+    float: left;
+    line-height: 1;
+  }
+  
+  .support .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  
+  .support .email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .support .email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .support .email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .support .email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .support .email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .support .email-form input, 
+  .support .email-form textarea {
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .support .email-form button[type="submit"] {
+    font-size: 20px;
+    background: #fff;
+    color: #3498db;
+    border-radius: 20%;
+    border: 1px solid #3498db;
+  }
+  
+  .support .email-form button[type="submit"]:hover {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  
+  #footer {
+  background: #e5e5e5;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  color: #222222;
+  font-size: 14px;
+  }
+  
+  #footer .credits {
+  font-size: 13px;
+  padding-top: 5px;
+  color: #222222;
+  }
+  
+  #footer .footer-links a {
+  color: #222222;
+  padding-left: 15px;
+  }
+  
+  #footer .footer-links a:first-child {
+  padding-left: 0;
+  }
+  
+  #footer .footer-links a:hover {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  }
