@@ -123,7 +123,8 @@ body {
 --------------------------------------------------------------*/
 #home,
 #portolio,
-#technology {
+#technology,
+#certification {
 	margin-top:20px;
 	padding:10px;
 	text-align:center;
@@ -138,7 +139,8 @@ body {
 
 #home .lead,
 #portfolio .lead,
-#technology .lead {
+#technology .lead,
+#certification .lead {
 	text-align:center;
 	font-size:18px;
 	margin-bottom:20px;
